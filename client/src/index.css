@@ -1,0 +1,140 @@
+
+*{
+  box-sizing: border-box;
+  margin :0;
+  font-family: "Bubblegum Sans", sans-serif;
+}
+
+.company-name{
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15vw;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+#home{
+   height: 100vh;
+    width: 100vw;
+    background-image: url("./images/priscilla-du-preez-Qsn6HPyJrc0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 220% auto; /* Zoom in the background image even more */
+    background-position: center 10%; /* Move the background image down */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 45px;
+    gap: 20px;
+}
+
+
+
+#app {
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#menu-icon {
+  position: absolute;
+  top:0;
+  left:0;
+  margin: 10px;
+  height: 40px;
+  width:40px;
+  cursor: pointer;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+  gap: 20px;
+  text-align: center;
+}
+
+#dropdown-menu {
+  list-style-type: none;
+  padding: 10px;
+  border: 5px dashed orangered;
+  height: 60vh;
+  width: 75vw;
+  background-color: rgba(211, 211, 211, 0.84);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2.5em;
+  z-index: 100;
+}
+
+#dropdown-menu > li {
+  border-bottom: 2px solid grey;
+  cursor: pointer;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./images/priscilla-du-preez-Qsn6HPyJrc0-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 220% auto; /* Zoom in the background image even more */
+  background-position: center 10%; /* Move the background image down */
+  gap: 25px;
+  font-size: larger;
+}
+
+form {
+  width: 75vw;
+  height: 75vh;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(233, 231, 231);
+  border: 2px solid orangered;
+  border-radius: 18px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  min-width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
