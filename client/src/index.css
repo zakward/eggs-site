@@ -3,38 +3,49 @@
   box-sizing: border-box;
   margin :0;
   font-family: "Bubblegum Sans", sans-serif;
+  color: white;
+  
 }
 
 .company-name{
   font-weight: 400;
   font-style: normal;
-  font-size: 15vw;
+  font-size: 3em;
   text-align: center;
   position: relative;
   top: 20px;
 }
 
-#home{
-   height: 100vh;
-    width: 100vw;
-    background-image: url("./images/priscilla-du-preez-Qsn6HPyJrc0-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: 220% auto; /* Zoom in the background image even more */
-    background-position: center 10%; /* Move the background image down */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 45px;
-    gap: 20px;
+#app{
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("./images/siora-photography-DCOiZhT-WkI-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#home {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("./images/siora-photography-DCOiZhT-WkI-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 45px;
+  gap: 25px;
+}
+
+.title {
+  position: absolute;
+  top: 40%;
+
 }
 
 
-
-#app {
-   display:flex;
-   flex-direction: column;
-   align-items: center;
-}
 
 #menu-icon {
   position: absolute;
@@ -52,7 +63,7 @@
   padding: 5px;
   display: flex;
   flex-direction: column;
-  height: 10vh;
+  height: 5vh;
   gap: 20px;
   text-align: center;
 }
@@ -61,15 +72,17 @@
   list-style-type: none;
   padding: 10px;
   border: 5px dashed orangered;
-  height: 60vh;
-  width: 75vw;
-  background-color: rgba(211, 211, 211, 0.84);
+  height: 50vh;
+  width: 100vw;
+  background-color: rgb(64, 64, 64);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   font-size: 2.5em;
   z-index: 100;
+  position: absolute;
+  top: 125px;
 }
 
 #dropdown-menu > li {
