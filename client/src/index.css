@@ -3,7 +3,6 @@
   box-sizing: border-box;
   margin :0;
   font-family: "Bubblegum Sans", sans-serif;
-  color: white;
   
 }
 
@@ -19,29 +18,34 @@
 #app{
   min-height: 100vh;
   min-width: 100vw;
-  background-image: url("./images/siora-photography-DCOiZhT-WkI-unsplash.jpg");
-  background-size: cover;
+  background-image: url("./images/priscilla-du-preez-Qsn6HPyJrc0-unsplash.jpg");
+  background-color: rgb(193, 192, 192);
+  background-size: 160%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center -47%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #home {
   min-height: 100vh;
   min-width: 100vw;
-  background-image: url("./images/siora-photography-DCOiZhT-WkI-unsplash.jpg");
-  background-size: cover;
+  /* background-image: url("./images/siora-photography-DCOiZhT-WkI-unsplash.jpg"); */
+  /* background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; */
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 45px;
-  gap: 25px;
+  gap: 15px;
 }
 
 .title {
   position: absolute;
-  top: 40%;
+  top: 75%;
 
 }
 
@@ -74,7 +78,7 @@
   border: 5px dashed orangered;
   height: 50vh;
   width: 100vw;
-  background-color: rgb(64, 64, 64);
+  background-color: rgb(206, 202, 202);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -150,4 +154,39 @@ button {
 
 button:hover {
   background-color: #0056b3;
+}
+
+
+.egg-inventory {
+  width: 85vw;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  height: 55vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  position: relative;
+  top: 10vh;
+}
+
+.header {
+  text-align: center;
+}
+
+.tracker {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.special-note {
+  margin-top: 20px;
+  text-align: center;
 }

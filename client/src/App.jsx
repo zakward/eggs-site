@@ -26,7 +26,9 @@ function App() {
                    navigate("/inventory")
                   setIsMenuOpen(false)}} >Inventory</li>
                    
-                    <li onClick = {()=> navigate("/orders")}>Order Form</li>
+                   <li onClick = {()=> {
+                   navigate("/orders")
+                  setIsMenuOpen(false)}} >Order Form</li>
                     <li>Farm Pictures</li>
                     <li>About WFR</li>
                 </ul>}
